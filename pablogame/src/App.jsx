@@ -6,7 +6,7 @@ import './index.css'
 
 function App() {
   const [count, setCount] = useState(0)
-  const GameWon = count >= 5
+  const GameWon = count >= 100
 
   const handleClick = () => {
     setCount(count + 1)
